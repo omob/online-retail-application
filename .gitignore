@@ -27,4 +27,4 @@ yarn-error.log*
 /src/config.*
 src/config.dev.json
 
-/server
+/server/
