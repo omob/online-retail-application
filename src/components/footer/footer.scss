@@ -1,0 +1,26 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;
+  height: fit-content;
+  padding: 10px;
+  margin-top: 5em;
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 2px 0px 10px rgb(223, 223, 223);
+
+  span.title {
+    font-weight: bold;
+  }
+
+  a {
+    color: inherit;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 991px) {
+  footer {
+    position: relative;
+  }
+}

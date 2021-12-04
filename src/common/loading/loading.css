@@ -1,0 +1,23 @@
+.loading {
+  width: 100px;
+  height: 100px;
+  background: url("/assets/img/loading.gif") center center no-repeat;
+  background-size: contain;
+}
+
+.loading-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.705);
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}

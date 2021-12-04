@@ -1,0 +1,35 @@
+$red: #ff0000;
+$light-red: #ff2424;
+$box-shadow-white: #f3f3f3;
+$whitegray: #f8f8f8;
+
+.registration-form {
+  margin-top: 1em;
+  box-shadow: none;
+
+  input.form-control {
+    border-radius: 0;
+    padding: 22px 20px !important;
+    font-size: 14px !important;
+    background: $box-shadow-white;
+    border: none;
+  }
+
+  input.form-control::placeholder {
+    text-transform: uppercase;
+  }
+
+  .btn.btn-red {
+    background-color: $red;
+    color: #fff;
+    width: 100px;
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .btn.btn-red:hover {
+    background-color: $light-red;
+    color: #fff;
+  }
+}

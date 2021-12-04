@@ -1,0 +1,65 @@
+$red: #ff0000;
+
+.card {
+  width: 280px;
+  box-shadow: 0px 0px 16px #f3f3f3 !important;
+  border: none !important;
+
+  .img-fluid {
+    min-height: 180px;
+  }
+  .card-body {
+    position: relative;
+
+    .button-group {
+      .btn {
+        padding: 5px;
+        width: 80px;
+        text-transform: uppercase;
+        border-radius: 0;
+        border-color: $red;
+        font-size: 10px;
+        position: absolute;
+        top: -10px;
+      }
+      .btn-danger {
+        background-color: $red;
+        right: 10px;
+        border: none;
+      }
+
+      .btn-outline-danger {
+        right: 100px;
+        background-color: #fff;
+        padding: 4px 5px;
+        color: $red;
+      }
+      :hover {
+        color: #fff;
+      }
+    }
+
+    .btn.btn-danger:hover {
+      color: #000;
+      background-color: #fff;
+    }
+
+    .card-text {
+      margin-top: 20px;
+      font-size: 12px;
+      p {
+        margin-bottom: 5px;
+
+        .title {
+          font-weight: bold;
+          text-transform: uppercase;
+          margin-bottom: 2px;
+        }
+      }
+    }
+  }
+}
+.card:hover {
+  box-shadow: 0px 0px 20px 1px rgb(214, 214, 214) !important;
+  cursor: pointer;
+}

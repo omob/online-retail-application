@@ -1,0 +1,56 @@
+.fade {
+  transition: opacity 0.15s linear;
+}
+
+.fade.show {
+  opacity: 1;
+}
+
+.modal .modal-content {
+  box-shadow: 0 20px 75px rgba(0, 0, 0, 0.13);
+  color: #666;
+  border: none;
+}
+
+.modal.show {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.9);
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  opacity: 0;
+  animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+}
+
+@media (min-width: 992px) {
+  .modal-lg,
+  .modal-xl {
+    width: 800px !important;
+  }
+}
+
+div.space-5 {
+  margin-bottom: 5em;
+}
+
+label {
+  font-weight: bold;
+}
+
+#manage-product .btn-danger {
+  width: 100px;
+}
+
+div.navbar {
+  background-color: #f3f3f3;
+}

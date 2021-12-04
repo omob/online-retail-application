@@ -1,0 +1,62 @@
+$red: #ff0000;
+
+.btn.btn-danger:hover {
+  color: #000;
+}
+
+div.intro {
+  max-width: 500px;
+  text-align: left;
+
+  p {
+    width: 80%;
+  }
+  .btn.btn-danger {
+    background-color: $red;
+    padding: 7px 12px;
+    text-transform: uppercase;
+    // border-radius: 0;
+    border: none;
+    font-size: 12px;
+  }
+}
+hr {
+  height: 2px !important;
+  width: 200px;
+  background-color: $red;
+  margin-left: 0;
+}
+
+.products-section hr {
+  margin: auto;
+}
+
+.sdm-title {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.extra {
+  margin-top: 15vh;
+}
+
+@media (max-width: 650px) {
+  .extra {
+    margin-top: 5vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .col {
+    flex-basis: none;
+  }
+
+  .colsm {
+    width: 100%;
+  }
+  .sdm-title {
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,109 @@
+$red: #ff0000;
+
+// .fade {
+//   transition: opacity 0.15s linear;
+// }
+// .fade.show {
+//   opacity: 1 !important;
+// }
+
+label,
+p.label {
+  font-size: 14px;
+}
+.col.expiration {
+  padding-right: 0;
+}
+.col.expiration.month {
+  padding-left: 5px;
+}
+
+.form-control {
+  font-size: 14px !important;
+}
+.modal {
+  .modal-content {
+    box-shadow: 0 20px 75px rgba(0, 0, 0, 0.13);
+    color: rgb(20, 20, 20);
+    border: none;
+  }
+  .modal-body {
+    padding: 2em 2.3rem !important;
+  }
+}
+
+.modal.show {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 120;
+  background: rgba(255, 255, 255, 0.9);
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  opacity: 0;
+  animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+}
+
+.btn-danger {
+  background-color: $red !important;
+}
+
+// order mark
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: $red;
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 5;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  margin: 10% auto;
+  box-shadow: inset 0px 0px 0px #ff0000;
+  animation: fill 0.4s ease-in-out 0.4s forwards,
+    scale 0.3s ease-in-out 0.9s both;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 1s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale {
+  0%,
+  100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px $red;
+  }
+}

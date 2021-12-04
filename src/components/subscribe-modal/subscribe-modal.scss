@@ -1,0 +1,58 @@
+$gray: "#666";
+$red: #ff0000;
+
+// .fade {
+//   transition: opacity 0.15s linear;
+// }
+// .fade.show {
+//   opacity: 1 !important;
+// }
+
+label,
+p.label {
+  font-size: 14px;
+}
+.col.expiration {
+  padding-right: 0;
+}
+.col.expiration.month {
+  padding-left: 5px;
+}
+
+.form-control {
+  font-size: 14px !important;
+}
+.modal {
+  .modal-content {
+    box-shadow: 0 20px 75px rgba(0, 0, 0, 0.13);
+    color: $gray;
+    border: none;
+  }
+  .modal-body {
+    padding: 2em 2.3rem !important;
+  }
+}
+
+.modal.show {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 120;
+  background: rgba(255, 255, 255, 0.9);
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  opacity: 0;
+  animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+}
+
+.btn-danger {
+  background-color: $red !important;
+}

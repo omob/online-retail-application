@@ -1,0 +1,32 @@
+.Toastify__toast-container--top-right {
+  top: 5em !important;
+}
+
+@media only screen and (max-width: 480px) {
+  .Toastify__toast-container {
+    width: calc(100vw - 20px) !important;
+    padding: 0;
+    left: 10px !important;
+    margin: 0 auto;
+  }
+}
+
+.table {
+  font-size: 14px;
+}
+.table td,
+.table th {
+  border-top: none !important;
+}
+
+.table th {
+  border-bottom: 2px solid #fafafa !important;
+}
+
+.alert-danger {
+  font-size: 12px !important;
+}
+
+.spaces-5 {
+  margin-top: 5em;
+}

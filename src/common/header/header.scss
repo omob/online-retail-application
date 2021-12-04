@@ -1,0 +1,17 @@
+$red: #ff0000;
+#header {
+  background-color: #fafafa;
+
+  h2.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  hr {
+    height: 2px;
+    width: 100px;
+    background-color: $red;
+    margin-left: 0;
+  }
+}

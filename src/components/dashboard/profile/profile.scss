@@ -1,0 +1,45 @@
+$red: #ff0000;
+
+.bg-gray {
+  box-shadow: 0px 0px 10px #f1f1f1;
+}
+
+.font-small {
+  font-size: 12px !important;
+}
+
+#profile {
+  margin-bottom: 10em;
+
+  .img-thumbnail {
+    width: 100px;
+    height: 100px;
+  }
+
+  button.btn.position-absolute,
+  .revoke-access,
+  a.btn.position-absolute {
+    right: 0;
+    top: -10px;
+  }
+
+  button.btn-red,
+  a.btn-red {
+    background-color: $red;
+    color: #fff;
+  }
+
+  button.btn-red:hover,
+  a.btn-red:hover {
+    color: #000;
+  }
+
+  .credit-card {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .react-switch-bg {
+    background-color: #ff0000 !important;
+  }
+}
