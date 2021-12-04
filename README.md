@@ -13,6 +13,8 @@ The online retail app is a platform where users (clients, customers, or business
 - An admin user can manage all users' subscriptions 
 - A user can manage his or her profile.
 - A user can add and remove debit cards.
+- Users on subscription are notified when billing is about to occur on their account.
+- Automatic retry when billing fails.
 
 #### Click to view demo site  <a href="https://retail-app.netlify.app/" target="_blank" title="Go to Demo App">Online Retail Store</a>
 #### Admin account
