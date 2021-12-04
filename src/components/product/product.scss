@@ -1,5 +1,17 @@
 $red: #ff0000;
 
+@media (max-width: 580px) {
+  .product {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    .card {
+      width: 300px;
+    }
+  }
+}
+
 .card {
   width: 280px;
   box-shadow: 0px 0px 16px #f3f3f3 !important;
