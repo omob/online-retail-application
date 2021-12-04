@@ -1,5 +1,5 @@
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   font-size: 12px;
   padding: 10px;
@@ -18,7 +18,7 @@ footer {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   footer {
     position: relative;
   }

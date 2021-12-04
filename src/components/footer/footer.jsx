@@ -8,8 +8,8 @@ const Footer = () => {
       <footer>
         <div className="container">
           <div className="row">
-            <div className="col-4 text-right">Copyright 2021</div>
-            <div className="col-8 text-left">
+            <div className="col-4 text-left">Copyright 2021</div>
+            <div className="col-8 text-right">
               Developed by
               <a
                 href="http://ayodejiabodunrin.netlify.app/"
